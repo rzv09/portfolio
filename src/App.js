@@ -1,5 +1,9 @@
 import Game from "./TicTacToe";
+import Main from "./Main";
 
 export default function App() {
-    return <Game/>
+    return <>
+        <Main/>
+        {/* <Game/> */}
+    </>
 }

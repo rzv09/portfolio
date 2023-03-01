@@ -1,4 +1,32 @@
-* {
+.text{
+	padding: 0;
+	margin: 0;
+	margin-left: 40%;
+	transform: translateX(200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+	10% {
+		opacity: 0;
+	}
+  30% {
+    transform: translateX(-10%);
+  }
+	60% {
+		transform: translateX(-20%);
+	}
+	75% {
+		transform: translateX(-30%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-52%);
+	}
+}
+
+/* * {
     box-sizing: border-box;
   }
   
@@ -88,4 +116,4 @@
   .game-info {
     margin-left: 20px;
   }
-  
+   */
