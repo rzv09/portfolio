@@ -1,5 +1,3 @@
-
-import Game from "./TicTacToe";
 import Main from "./Main";
 import Projects from "./Projects";
 import { Routes, Route } from 'react-router-dom';

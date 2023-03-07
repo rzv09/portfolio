@@ -1,4 +1,3 @@
-import MyNavBar from "./MyNavBar";
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button } from "reactstrap"
 
 export default function ProjectCard({ Title, SubTitle, Text, ProjectLink, ImgSrc}) {
