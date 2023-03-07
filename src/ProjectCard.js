@@ -1,16 +1,16 @@
 import MyNavBar from "./MyNavBar";
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button } from "reactstrap"
 
-export default function ProjectCard({ Title, SubTitle, Text, ProjectLink}) {
+export default function ProjectCard({ Title, SubTitle, Text, ProjectLink, ImgSrc}) {
     return (
-        <Card
+        <Card className="projcard"
         style={{
           width: '18rem'
         }}
       >
         <img
           alt="Sample"
-          src="https://picsum.photos/300/200"
+          src={ImgSrc}
         />
         <CardBody>
           <CardTitle tag="h5">
