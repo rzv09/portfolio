@@ -1,9 +1,13 @@
+
 import Game from "./TicTacToe";
 import Main from "./Main";
-
+import Projects from "./Projects";
+import { Routes, Route } from 'react-router-dom';
 export default function App() {
-    return <>
-        <Main/>
-        {/* <Game/> */}
-    </>
+    return (
+        <Routes>
+            <Route path="/" element = {<Main/>} />
+            <Route path="projects" element={<Projects/>} />
+        </Routes>
+    )   
 }
